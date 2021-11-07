@@ -2308,7 +2308,6 @@ pre code {
   .col-sm-8,
   .col-sm-9 {
     float: left;
-    border: solid red 4px;
   }
   .col-sm-12 {
     width: 100%;
