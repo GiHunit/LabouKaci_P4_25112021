@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(14, 122, 247, 0.877);   */ 
 }
 
 .d-bloc .a-btn:hover,
@@ -661,7 +661,7 @@ a {
 
   text-decoration: none;
 
-  color: #575757 !important;
+  color: #000000 !important;
 }
 
 .container {
