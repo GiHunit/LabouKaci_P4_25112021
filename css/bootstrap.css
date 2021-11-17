@@ -1444,6 +1444,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width:100%;
 }
 
 .img-rounded {
@@ -2075,8 +2076,34 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-}
 
+}
+.glassy{
+  border:solid rgba(128, 128, 128, 0.288) 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  position:relative;
+  background:inherit;
+  overflow: hidden;
+z-index: 1;
+
+
+
+
+}
+.glassy::before{
+  content: '';
+  position: absolute;
+  background: inherit;
+  border-radius: 15px;
+  inset:3px;
+
+  box-shadow: inset 0 0 500px rgba(255, 255, 255, .4); 
+  filter: blur(0px);
+  z-index: -1;
+
+
+}
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
@@ -4860,16 +4887,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
-  border:solid green 4px;
-  background-image: url('/img/logo.webp') !important;
-  background-size: cover;
+  
+ 
 
 }
 
 .nav > li > a:focus,
 .nav > li > a:hover {
+  border-bottom:solid rgba(3, 3, 3, 0.993) 1px;
   text-decoration: none;
-  background-color: #eee;
 }
 
 .nav > li.disabled > a {

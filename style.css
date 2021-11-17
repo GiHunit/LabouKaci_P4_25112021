@@ -861,7 +861,8 @@ h4 {
     margin-left: 10px;
   }
   a {
-    border: solid green 4px;
+    border: solid #303030 1px;
+    background:#30303054;
   }
 
   .bloc {
