@@ -646,9 +646,9 @@ h4 {
 .white {
   color: #fff !important;
 }
-.portfolio-thumb {
-  margin-bottom: 24px;
-}
+/* .portfolio-thumb {
+  margin-bottom: 20px;
+} */
 .portfolio-row {
   margin-bottom: 44px;
   margin-top: 50px;
