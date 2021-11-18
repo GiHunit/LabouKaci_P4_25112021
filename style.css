@@ -667,9 +667,8 @@ h4 {
   background-color: #364577;
 }
 .bgc-atomic-tangerine {
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 49%);
+}
 .tc-white {
   color: #000 !important;
   font-weight: 700;
