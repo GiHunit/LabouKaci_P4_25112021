@@ -2078,7 +2078,7 @@ pre code {
   padding-left: 15px;
 
 }
-.glassy{
+.glassy , .footerGlassy{
   border:solid rgba(128, 128, 128, 0.288) 1px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
@@ -2101,9 +2101,9 @@ z-index: 1;
   box-shadow: inset 0 0 500px rgba(255, 255, 255, .4); 
   filter: blur(50px);
   z-index: -1;
-
-
 }
+
+
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
