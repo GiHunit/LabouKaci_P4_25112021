@@ -670,7 +670,7 @@ h4 {
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 49%);
 }
 .tc-white {
-  color: #000 !important;
+  color: rgb(209, 208, 208) !important;
   font-weight: 700;
 }
 .btn-atomic-tangerine {
