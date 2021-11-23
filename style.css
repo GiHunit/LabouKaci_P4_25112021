@@ -597,8 +597,13 @@ p {
   border-radius: 15px;
   inset: 3px;
   box-shadow: inset 0 0 500px rgba(255, 255, 255, 0.4);
-  filter: blur(10px);
-  z-index: -1;
+  backdrop-filter: blur(5px);
+  opacity: 0.6;
+    z-index: -1;
+    filter: blur(1px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
 }
 
 
@@ -694,23 +699,27 @@ h4 {
   font-weight: bold;
 }
 .btn-atomic-tangerine {
-  background: linear-gradient(
-    180deg,
-    rgba(243, 151, 108, 1) 0%,
-    rgba(190, 64, 72, 1) 49%,
-    rgba(235, 194, 76, 1) 100%
-  );
+ 
   color: rgb(0, 0, 0) !important;
   font-weight: bold;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f018, #cacaca73);
+
+border: solid rgba(255, 255, 255, 0.103) 1px;
+
+
+
+box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
+inset 4px 4px 10px rgba(0, 0, 0, 0.5),
+inset -4px -4px 10px rgba(67, 67, 67, 0.3),
+4px 4px 10px rgba(0, 0, 0, 0.3);
+
 }
 .btn-atomic-tangerine:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(243, 151, 108, 0.473) 0%,
-    rgba(94, 21, 26, 0.397) 49%,
-    rgba(235, 194, 76, 1) 100%
-  );
+  
   color: #fff;
+  border-radius: 40px;
+  transform: translateY(2px);
 }
 .ltc-white {
   color: #fff !important;
