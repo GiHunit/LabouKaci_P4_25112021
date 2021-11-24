@@ -707,7 +707,7 @@ h4 {
   content:"";
   background-color: rgba(230, 230, 233, 0.575);
   height: 100%;
-  width: 40px;
+  width: 25px;
   display: block;
   position: absolute;
   top: 0;
@@ -718,7 +718,7 @@ h4 {
 .btn-atomic-tangerine:hover:before{
   
     transform: skewX(-25deg) translateX(13.5em);
-   transition: all 0.5s ease-in-out;
+   transition: all 0.4s ease-in-out;
 }
 .btn-atomic-tangerine:hover {
   color: opacity:0.4;
