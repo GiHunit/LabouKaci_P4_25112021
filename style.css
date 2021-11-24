@@ -676,7 +676,9 @@ h4 {
   padding: 40px 40px 40px 40px;
 }
 .bold-link {
-  font-weight: 900;
+  color:black;
+font-size: 25px;
+  font-weight: bold;
   text-decoration: underline !important;
 }
 .bgc-white {
@@ -689,6 +691,15 @@ h4 {
   color: white !important;
   font-weight: bold;
 }
+.bgc-atomic-tangerine1 {background-color: #303030;
+}
+.tc-white {
+  color: white !important;
+  font-weight: bold;
+}
+
+
+
 
 .btn-atomic-tangerine {
   color: rgb(0, 0, 0) !important;
@@ -727,7 +738,7 @@ h4 {
     opacity: 0.4;
 }
 .ltc-white {
-  color: #fff !important;
+  color: black !important;
 }
 .ltc-white:hover {
   color: #ccc !important;
