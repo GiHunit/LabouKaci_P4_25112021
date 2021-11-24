@@ -465,6 +465,24 @@ box-shadow: inset 5px 5px 15px 5px #00000046;
 flex-direction: column;
 align-items: center;
 }
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;}
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+
+
 .scrollToTop {
   width: 40px;
   height: 40px;
