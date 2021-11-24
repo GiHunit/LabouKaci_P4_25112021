@@ -598,15 +598,12 @@ p {
   inset: 3px;
   box-shadow: inset 0 0 500px rgba(255, 255, 255, 0.4);
   opacity: 0.7;
-    z-index: -1;
-    filter: blur(10px);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    
+  z-index: -1;
+  filter: blur(10px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
 }
-
-
-
 
 .statement-bloc-text {
   line-height: 26px;
@@ -697,28 +694,42 @@ h4 {
   color: white !important;
   font-weight: bold;
 }
+
 .btn-atomic-tangerine {
- 
   color: rgb(0, 0, 0) !important;
   font-weight: bold;
   border-radius: 50px;
   background: linear-gradient(145deg, #f0f0f018, #cacaca73);
-
-border: solid rgba(255, 255, 255, 0.103) 1px;
-
-
-
-box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
-inset 4px 4px 10px rgba(0, 0, 0, 0.5),
-inset -4px -4px 10px rgba(67, 67, 67, 0.3),
-4px 4px 10px rgba(0, 0, 0, 0.3);
-
+  border: solid rgba(255, 255, 255, 0.103) 1px;
+  overflow: hidden;
+}
+.btn-atomic-tangerine::before{
+  content:"";
+  background-color: rgba(230, 230, 233, 0.575);
+  height: 100%;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  transform: skewX(5deg) translateX(0);
+  transition: none;
+}
+.btn-atomic-tangerine:hover:before{
+  
+    transform: skewX(-25deg) translateX(13.5em);
+   transition: all 0.5s ease-in-out;
 }
 .btn-atomic-tangerine:hover {
-  
-  color: #fff;
+  color: opacity:0.4;
   border-radius: 40px;
   transform: translateY(2px);
+
+  background: linear-gradient(80deg, #4040413d 0%, #84848510 10%);
+  box-shadow: 1.53489e-15px 25.0667px 50.1333px rgba(5, 2, 48, 0.068),
+    inset -1.02326e-15px -16.7111px 16.7111px #efeff123,
+    inset 1.02326e-15px 16.7111px 16.7111px #fffeff2d;
+    opacity: 0.4;
 }
 .ltc-white {
   color: #fff !important;
