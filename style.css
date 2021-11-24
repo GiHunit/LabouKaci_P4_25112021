@@ -297,7 +297,7 @@ a:hover {
   background: 0 0;
 }
 .navbar-toggle {
-  margin: 10px 10px 0 0;
+  margin: 10px 20px 0 0;
   border: 0;
 }
 .navbar-toggle:hover {
@@ -683,12 +683,7 @@ h4 {
   background-color: #fff;
 }
 
-.bgc-atomic-tangerine {
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(67, 67, 67, 1) 49%
-  );
+.bgc-atomic-tangerine {background-color: #f3976c;
 }
 .tc-white {
   color: white !important;
