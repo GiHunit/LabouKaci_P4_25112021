@@ -441,8 +441,19 @@ button {
 }
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(128, 128, 128, 0.329);
   box-shadow: none;
 }
+.formulairec{
+  border : solid rgb(212, 211, 211) 4px;
+  background-color: #bb74532d}
+.formulairecc p{
+    border:solid grey 12px;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: 500;
+    height:250px;
+  }
 .scrollToTop {
   width: 40px;
   height: 40px;
