@@ -485,50 +485,58 @@ align-items: center;
 
 .fa-twitter {
   color: white;
-  border: solid rgb(248, 248, 248) 1px;
+  border: solid rgba(128, 128, 128, 0.219) 1px;
   width: 80px;
   height: 80px;
 
   display:flex;
   justify-content:center;
   align-items:center;
+  box-shadow: 0 10px 15px rgba(230, 228, 228, 0.171);
 
 }
 .fa-twitter:hover{
   border:none;
- background: #55ACEE; 
+ background-color: #55ACEE; 
+ box-shadow: 0 8px 5px rgba(0, 0, 0, 0.226);
+border-radius: 25px;
 }
 .fa-facebook {
   color: white;
-  border: solid rgb(248, 248, 248) 1px;
+  border: solid rgba(128, 128, 128, 0.219) 1px;
   width: 80px;
   height: 80px;
 
   display:flex;
   justify-content:center;
   align-items:center;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 
 
 }
 .fa-facebook:hover{
   background:  #3B5998;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
 }
 
   .fa-instagram {
     color: white;
-    border: solid rgb(248, 248, 248) 1px;
+    border: solid rgba(128, 128, 128, 0.219) 1px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+
     width: 80px;
     height: 80px;
-  
     display:flex;
     justify-content:center;
     align-items:center;
   }
   .fa-dribbble {
     color: white;
-  border: solid rgb(248, 248, 248) 1px;
-  width: 80px;
+    border: solid rgba(128, 128, 128, 0.219) 1px;
+    width: 80px;
   height: 80px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 
   display:flex;
   justify-content:center;
@@ -536,9 +544,12 @@ align-items: center;
   }
 .fa-dribbble:hover{
        background: #ea4c89; 
+       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
 }
 .fa-instagram:hover{
        background: #E4405F;
+       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 
 }
 
@@ -735,6 +746,8 @@ p {
 }
 .social {
   margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
 }
 h2 {
   font-size: 22px;
