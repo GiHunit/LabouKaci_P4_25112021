@@ -497,33 +497,31 @@ align-items: center;
 }
 .fa-twitter:hover{
   border:none;
- background-color: #55ACEE; 
- box-shadow: 0 8px 5px rgba(0, 0, 0, 0.226);
-border-radius: 25px;
+  box-shadow: 0 10px 15px #3B5998;
+
 }
 .fa-facebook {
   color: white;
   border: solid rgba(128, 128, 128, 0.219) 1px;
   width: 80px;
   height: 80px;
+  box-shadow: 0 10px 15px rgba(230, 228, 228, 0.171);
 
   display:flex;
   justify-content:center;
   align-items:center;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 
 
 }
 .fa-facebook:hover{
-  background:  #3B5998;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 5px #3B5998;
 
 }
 
   .fa-instagram {
     color: white;
     border: solid rgba(128, 128, 128, 0.219) 1px;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 15px rgba(230, 228, 228, 0.171);
 
     width: 80px;
     height: 80px;
@@ -536,20 +534,18 @@ border-radius: 25px;
     border: solid rgba(128, 128, 128, 0.219) 1px;
     width: 80px;
   height: 80px;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 15px rgba(230, 228, 228, 0.171);
 
   display:flex;
   justify-content:center;
   align-items:center;
   }
 .fa-dribbble:hover{
-       background: #ea4c89; 
-       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+       box-shadow: 0 2px 5px #ea4c89;
 
 }
 .fa-instagram:hover{
-       background: #E4405F;
-       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+       box-shadow: 0 2px 5px #E4405F;
 
 }
 
@@ -829,13 +825,14 @@ background-image: linear-gradient(231deg, rgba(233, 233, 233, 0.01) 0%, rgba(233
   content:"";
   background-color: rgba(230, 230, 233, 0.575);
   height: 100%;
-  width: 25px;
+  width: 20px;
   display: block;
   position: absolute;
+  overflow: hidden;
   top: 0;
   left: -4.5em;
   transform: skewX(5deg) translateX(0);
-  transition: none;
+  transition: 10s  ease-in forward ;
 }
 .btn-atomic-tangerine:hover:before{
   
@@ -896,7 +893,7 @@ background-image: linear-gradient(231deg, rgba(233, 233, 233, 0.01) 0%, rgba(233
     padding-left: 0;
     padding-right: 0;
   }
-}
+
 @media (max-width: 992px) and (min-width: 768px) {
   .navbar .nav {
     max-width: 80%;
