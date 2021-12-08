@@ -332,7 +332,7 @@ box-shadow: inset 0px 10px 27px -8px #141414, inset 5px 5px 6px 5px rgba(0,0,0,0
   position: relative;
   z-index: 2;
 }
-@media (min-width: 768px) {
+@media (min-width: 943px) {
   .navbar-toggle {
     display: none;
 }
