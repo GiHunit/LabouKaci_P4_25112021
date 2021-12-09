@@ -501,7 +501,7 @@ align-items: center;
 }
 .fa-twitter:hover{
   border:none;
-  box-shadow: 0 10px 15px #3B5998;
+  box-shadow: 0 2px 5px #3B5998;
 
 }
 .fa-facebook {
@@ -844,8 +844,16 @@ background-image: linear-gradient(231deg, rgba(233, 233, 233, 0.01) 0%, rgba(233
     transform: skewX(-25deg) translateX(13.5em);
    transition: all 0.4s ease-in-out;
 }
-.social .fa-instagram:hover, .social .fa-dribbble:hover, .social .fa-facebook:hover, .social .fa-twitter:hover {
-  color:red;
+.social .fa-instagram:hover{
+  color:#ea4c89;
+}
+.social .fa-dribbble:hover {
+  color: #E4405F;
+}
+.social .fa-facebook:hover {color: #3B5998 ;
+}
+.social .fa-twitter:hover {
+  color:#3B5998;
 }
 .btn-atomic-tangerine:hover {
   opacity:0.4;
